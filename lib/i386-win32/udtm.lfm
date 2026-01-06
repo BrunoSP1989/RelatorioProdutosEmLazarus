@@ -1,0 +1,25 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 378
+  VerticalOffset = 302
+  Width = 390
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP'
+    )
+    TransactIsolationLevel = tiReadCommitted
+    Connected = True
+    DisableSavepoints = False
+    HostName = '127.0.01'
+    Port = 3306
+    Database = 'banco_de_dados'
+    User = 'user'
+    Password = 'senha'
+    Protocol = 'mysql'
+    LibraryLocation = 'escolha seu caminho'
+    Left = 16
+    Top = 16
+  end
+end

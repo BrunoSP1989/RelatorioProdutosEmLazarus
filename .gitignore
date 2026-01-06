@@ -1,0 +1,46 @@
+# Binários compilados
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Objetos e bibliotecas
+*.o
+*.obj
+*.a
+*.lib
+
+# Arquivos de unidades compiladas do Free Pascal
+*.ppu
+*.ppl
+*.dcu
+*.dcp
+
+# Arquivos de projeto Lazarus
+*.lps        # Lazarus Project Session (preferir não versionar)
+*.lpi        # Lazarus Project Information (pode ser ignorado se não quiser configs locais)
+*.compiled   # Arquivo de build gerado
+
+# Diretórios de saída
+/lib/
+/units/
+/backup/
+/bin/
+/build/
+/dist/
+/out/
+
+# Arquivos temporários e de backup
+*.bak
+*.log
+*.tmp
+*.temp
+*.~*
+*.orig
+*.old
+
+# Configurações locais
+*.stat
+*.identcache
+*.local
+*.tvsconfig

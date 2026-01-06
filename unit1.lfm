@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 302
+  Height = 165
+  Top = 184
+  Width = 309
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Gerar Relatório De Produtos'
+  ClientHeight = 165
+  ClientWidth = 309
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object btnGerar: TButton
+    Left = 16
+    Height = 25
+    Top = 112
+    Width = 104
+    AutoSize = True
+    Caption = 'Gerar Relatório'
+    TabOrder = 0
+    OnClick = btnGerarClick
+  end
+  object btnSalvarEmPdf: TButton
+    Left = 176
+    Height = 25
+    Top = 112
+    Width = 101
+    AutoSize = True
+    Caption = 'Salvar em PDF'
+    TabOrder = 1
+    OnClick = btnSalvarEmPdfClick
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 30
+    Top = 32
+    Width = 215
+    Alignment = taCenter
+    Caption = 'Relatório de Produtos'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end
